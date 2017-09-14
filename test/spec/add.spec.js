@@ -26,7 +26,7 @@ describe('add.js ', function () {
         setTimeout(() => {
             assert.ok(fs.existsSync(filePath));
             const content = fs.readFileSync(filePath, 'utf-8');
-            assert.ok(content.indexOf('mipcache.bdstatic.com') > 0);
+            assert.ok(content.indexOf('c.mipcdn.com') > 0);
             assert.ok(content.indexOf('mip-test-element') > 0);
             fs.writeFileSync(filePath, '');
 
@@ -60,7 +60,7 @@ describe('add.js ', function () {
         setTimeout(() => {
             assert.ok(fs.existsSync(filePath));
             const content = fs.readFileSync(filePath, 'utf-8');
-            assert.ok(content.indexOf('mipcache.bdstatic.com/extensions/platform') > 0);
+            assert.ok(content.indexOf('c.mipcdn.com/extensions/platform') > 0);
             assert.ok(content.indexOf('mip-test-extension-platform') > 0);
             done();
         }, 100);

@@ -1,0 +1,7 @@
+{
+	"domain": "https://mipengine.baidu.com",
+    "exts": [".png", ".jpg", ".jpeg", ".svg", ".gif", ".ico", ".ttf", ".fon", ".eot", ".woff", ".ttc", ".otf"],
+    "paths": [
+        "./src/"
+    ]
+}
